@@ -1,0 +1,7 @@
+ execution continues evaluating the following case statements 
+
+2, 0 
+
+    1 
+
+3 yes, the output becomes default. 
