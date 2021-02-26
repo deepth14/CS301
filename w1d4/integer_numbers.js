@@ -1,5 +1,10 @@
 
+let value =444
+sum = 0;
 
-const sunDigits =(number)=> {
-    
+while (value) {
+sum += value % 10;
+value = Math.floor(value / 10);
 }
+
+console.log(sum);
