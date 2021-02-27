@@ -1,0 +1,15 @@
+1, Your logic fails if optionalArg is passed, but evaluates as false - 
+
+2, Choose a word with meaning (provide some context) 
+
+Avoid generic names (like tmp ) 
+
+Attach additional information to a name (use suffix or prefix) 
+
+Don't make your names too long or too short. 
+
+Use consistent formatting. 
+
+3, it doesn’t need to be commented always but Primarily, a single block comment should be placed at the top of the function (or file) and describe the purpose the code and any algorithms used to accomplish the goal 
+
+3, use function declarations when you want to create a function on the global scope and make it available throughout your code. Use function expressions to limit where the function is available, keep your global scope light, and maintain clean syntax 
