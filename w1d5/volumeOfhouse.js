@@ -31,8 +31,8 @@ let lV = livingVolume(width, height, depth)
 console.log(lV)
 console.log(rV)
 
-function houseVol(a, b) {
-    return a + b
+function houseVol(roofVol, livingVol) {
+    return roofVol + livingVol;
 }
 
 console.log(houseVol(rV, lV));

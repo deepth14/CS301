@@ -28,8 +28,8 @@ const prompt = require("prompt-sync")();
 let number = +prompt("enter a number: ");
 
 
-let isPrime = checkPrime(number);
-if(isPrime){
+let isriversedPrime = checkPrime(number);
+if(isriversedPrime){
     console.log(" true");
 }
 else {

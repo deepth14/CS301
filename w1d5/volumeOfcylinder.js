@@ -7,9 +7,9 @@ let radius = +prompt("enter radius: ");
 let height = +prompt("enter height: ")
 
 function volumeOfCylinder(height) {
-   let volume = areaOfCircle(radius) * height;
-   return volume;
-} 
+    let volume = areaOfCircle(radius) * height;
+    return volume;
+}
 function areaOfCircle(radius) {
     let area = radius * radius * Math.PI
     return area;
