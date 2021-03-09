@@ -17,7 +17,7 @@ function findMin(arr) {
     }
 return min
 }
-
+console.log(findMin);
 
 //
 /**3. Write a function sumOddIndicesValues that takes an array as a parameter and returns the sum

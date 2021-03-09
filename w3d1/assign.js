@@ -1,6 +1,11 @@
 "use strict";
 
-exports.insertArray = insertArray;
+exports.isPersonEqual = isPersonEqual;
+exports.checkSpam = checkSpam;
+exports.suffix = suffix;
+exports.titleCase = titleCase;
+exports.sumFirst = sumFirst;
+
 /**
  * 1,
  */
@@ -65,7 +70,7 @@ function checkSpam(str) {
     }
     return false
 }
-
+console.log(checkSpam(str));
 
 /*
 5.	Write a function named suffix that returns the common suffix of two strings. For example, the common suffix of “swimming” 
@@ -106,7 +111,7 @@ function titleCase(s) {
     let title = fistInx + lastInx
     return title;
 }
-
+console.log(titleCase(s));
 /*
 7.	Write the function getAverageAge(users) that gets an array of objects with two properties name and age and returns the average age.
 Use for .. of
@@ -126,10 +131,16 @@ function getAverageAge(users){
 Use a for .. of loop.  
 arr = [[1, 2], [3, 4], [5, 6]]  
 */
-function sumFirst(arr) {
-    let sum = 0;
-    for (let first of arr) {
-        sum = sum + first[0]
+
+function sumFirst(arr){
+    let sum=0;
+    let i,j;
+    for(i=0;i<arr.length;i++){
+    
+    for(j=0;j<arr[i].length-1;j++){
+    sum+=arr[i][j];
+    }
     }
     return sum;
-}
+    }
+    console.log(sumFirst([[1,2],[3,4],[5,6]]))

@@ -82,11 +82,26 @@ converts it into an array of words and prints in reverse order.
 string with 4
  * 
  */
-function replace(str){
-    const fIndex=str.indexOf("for");
-    const subString1=str.substr(0,fIndex);
-    const subString2=str.substr(fIndex + 3,str.length-1);
-    return subString1 + 4 +subString2;
-}
-const testString = "find the first for in this forString";
-console.log(replace(testString));
+// function replace(str){
+//     const fIndex=str.indexOf("for");
+//     const subString1=str.substr(0,fIndex);
+//     const subString2=str.substr(fIndex + 3,str.length-1);
+//     return subString1 + 4 +subString2;
+// }
+// const testString = "find the first for in this forString";
+// console.log(replace(testString));
+
+// const arr = [[1, 2], [3, 4], [5, 6]]
+
+function sumFin(arr){
+    let sum=0;
+    
+    for(let i=0;i<arr.length;i++){
+    //sum=0
+    for(let j=0;j<arr[i].length;j++){
+    sum+=arr[i][j];
+    }
+    }
+    return sum;
+    }
+    console.log(matrixSum([[1,2,3],[3,4,5],[5,6,6]]))
