@@ -1,6 +1,6 @@
 "use strict";
 
-
+exports.insertArray = insertArray;
 /**
  * 1,
  */
