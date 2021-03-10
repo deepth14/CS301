@@ -1,4 +1,6 @@
 "use strict";
+exports.findAverage = findAverage;
+
 /*
 Write code to create an array named scores and fill it with 5 
 test scores 10, 20, 30, 40 and 50.
